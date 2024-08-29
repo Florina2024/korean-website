@@ -95,12 +95,12 @@ hr {
 }
 
 .header__link-1{
-    font-family: var(--title-font);
-    font-size: 20px;
+    font-family: var(--body-font);
+    font-size: 24px;
     font-weight: lighter;
     text-decoration: none;
     color: #fff;
-    padding-right: 32px;
+    padding-right: 45px;
 
 }
 
@@ -707,9 +707,9 @@ input::placeholder{
     background-color: var(--body-color);
     backdrop-filter: blur(20px);
     --webkit-backdrop-filter: blur(20px);
-    width: 60%;
+    width: 40%;
     height: 100%;
-    padding: 6rem 3rem 0;
+    padding: 3rem 3rem;
     transition: right 0.4s;
     }
 
@@ -717,12 +717,10 @@ input::placeholder{
         display: flex;
     }
 
-   
-
     .header__list {
         display: flex;
         flex-direction: column;
-        row-gap: 2.5rem;
+        row-gap: .5rem;
         font-size: 10px; /* Adjust font size */
     }
 
@@ -732,8 +730,9 @@ input::placeholder{
 
     .nav__close,
     .nav__toggle {
-      top: 1rem;
-      right: 1.5rem;
+      padding-top: 10px;
+      top: 0;
+      right:0;
       display: block;
       color: var(--title-color);
     }
@@ -824,6 +823,11 @@ input::placeholder{
     .about h4 {
         font-size: 14px; /* Adjust font size */
         margin-bottom: 10px;
+    }
+
+    .best__btn {
+        padding: 10px 200px; /* Adjust padding */
+        font-size: 10px; /* Adjust font size */
     }
 
     /* Discount */
